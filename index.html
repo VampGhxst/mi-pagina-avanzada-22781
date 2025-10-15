@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Sitio Web Avanzado</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Bienvenidos a Mi Sitio</h1>
+            <button id="theme-toggle-button">Cambiar Tema</button>
+        </header>
+
+        <main>
+            <section class="about-me">
+                <h2>Sobre mí</h2>
+                <p>Esta es una de mis páginas más completa para practicar HTML, CSS y JS.</p>
+            </section>
+
+            <section class="services">
+                <h2>Servicios</h2>
+                <div class="service-boxes">
+                    <div class="service-box">Diseño Web</div>
+                    <div class="service-box">Desarrollo Frontend</div>
+                    <div class="service-box">Firebase DB</div>
+                    <div class="service-box">Desarrollo Backend</div>
+                </div>
+            </section>
+
+            <section class="contact">
+                <h2>Contacto</h2>
+                <form id="contact-form">
+                    <input type="text" name="nombre" placeholder="Tu nombre" required>
+                    <input type="email" name="correo" placeholder="Tu correo" required>
+                    <button type="submit">Enviar</button>
+                </form>
+            </section>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
